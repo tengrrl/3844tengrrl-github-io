@@ -44,7 +44,6 @@ div.ex1 {
   header h1 {
     margin: 0;
     padding-top: 15px;
-    text-align: center;
   }
 
   main {
@@ -92,7 +91,7 @@ div.ex1 {
     padding-top: 15px;
     font-family: Sans-Serif;
     color: white;
-    text-align-last: align: center;
+    text-align: center;
   }
 
 .site-footer{
