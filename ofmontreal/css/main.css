@@ -1,0 +1,135 @@
+/* Stylesheet by quackit.com */
+/* Modified by github.com/tengrrl */
+
+/* Change the background color  */
+/* for the entire page here.    */
+
+div.page {
+  background: darkgray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* For Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient(left, #4d4d4d, black, black, black, #4d4d4d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #4d4d4d, black, black, black, #4d4d4d); /* Standard syntax */  /* background-color: gray; */
+  width: 100%;
+}
+
+/* Change the border color for */
+/* the centered content here.  */
+div.ex1 {
+    width: 851px;
+    margin: auto;
+    float: center;
+    border: 6px solid orange;
+    background-color: #FFFFFF;
+}
+
+  body {
+    margin:0;
+    padding:0;
+    font-family: Sans-Serif;
+    line-height: 1.5em;
+  }
+
+  /* Change the background image  */
+  /* here. Your image should be   */
+  /* 815px wide and 315px high.   */
+  header {
+    background-image: url("../images/burruss.jpg");
+    width: 851px;
+    height: 315px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  header h1 {
+    margin: 0;
+    padding-top: 15px;
+  }
+
+  main {
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    float: left;
+    width: 100%;
+  }
+
+  /* Change the background color   */
+  /* of the menu bar column below. */
+  nav {
+    padding-left: 0px;
+    background: #000;
+    overflow: hidden;
+  }
+
+  /* Change the background     */
+  /* color of the footer below */
+  footer {
+    clear: left;
+    width: 100%;
+    background: #ccc;
+    padding: 4px 0;
+  }
+
+  #wrapper {
+    overflow: hidden;
+  }
+
+  .innertube {
+    margin: 15px; /* Padding for content */
+    margin-top: 0;
+  }
+
+  p {
+    color: #000;
+  }
+
+  /* Additions to support the external */
+  /* iframe files */
+
+.site-header {
+    margin: 0;
+    padding-top: 15px;
+    font-family: Sans-Serif;
+    color: white;
+    text-align: center;
+  }
+
+.site-footer{
+    text-align: left;
+    font-size: small;
+    padding: 0px 7px;
+    font-style: italic;
+  }
+
+.site-menu {
+text-align: left;
+margin: 0px 0 0 ;
+padding: 10px 0;
+overflow: hidden;
+}
+
+.site-menu ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+.site-menu li {
+   display: inline-block;
+   padding: 0px 10px;
+}
+
+.site-menu a {
+  font-weight: normal;
+  padding: 0px 5px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Change the highlight     */
+/* color of the menu below */
+.site-menu a:hover {
+  color: orange;
+  text-decoration: none;
+}
