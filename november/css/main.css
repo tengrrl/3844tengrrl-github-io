@@ -90,8 +90,6 @@ div.ex1 {
     margin: 0;
     padding-top: 15px;
     font-family: Sans-Serif;
-    color: white;
-    text-align: center;
   }
 
 .site-footer{
@@ -108,7 +106,7 @@ padding: 10px 0;
 overflow: hidden;
 }
 
-.site-menu ul{
+.site-menu ul {
   list-style: none;
   margin: 0 2px;
   padding: 0;
